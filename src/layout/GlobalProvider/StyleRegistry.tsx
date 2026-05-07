@@ -10,8 +10,15 @@ const StyleRegistry = ({ children }: PropsWithChildren) => {
       <style
         dangerouslySetInnerHTML={{
           __html: `
-              html body {background: #f8f8f8;}
-              html[data-theme="dark"] body { background-color: #000; }
+              html body {background: #f6eef1;}
+              html[data-theme="dark"] body { background-color: #1f1020; }
+              @font-face {
+                font-family: 'Cal Sans';
+                font-style: normal;
+                font-weight: 400 700;
+                font-display: swap;
+                src: url('https://app.cal.com/fonts/cal-sans/CalSans-SemiBold.woff2') format('woff2');
+              }
             `,
         }}
       />

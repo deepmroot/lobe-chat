@@ -24,8 +24,10 @@ const CustomTextLogo = memo<FlexboxProps & { size: number }>(({ size, style, ...
     <Flexbox
       height={size}
       style={{
+        fontFamily: "'Cal Sans', sans-serif",
         fontSize: size / 1.5,
-        fontWeight: 'bolder',
+        fontWeight: 600,
+        letterSpacing: '-0.02em',
         userSelect: 'none',
         ...style,
       }}

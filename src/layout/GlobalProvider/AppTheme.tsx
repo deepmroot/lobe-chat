@@ -163,9 +163,9 @@ const AppTheme = memo<AppThemeProps>(
           theme={{
             cssVar: { key: 'lobe-vars' },
             token: {
-              fontFamily: customFontFamily
-                ? `${customFontFamily},${antdTheme.fontFamily}`
-                : undefined,
+              colorPrimary: (primaryColor ?? defaultPrimaryColor) ? undefined : '#eb3d5b',
+              colorLink: '#eb3d5b',
+              fontFamily: `'Cal Sans', ${customFontFamily ? `${customFontFamily},` : ''}${antdTheme.fontFamily}`,
               motion: animationMode !== 'disabled',
               motionUnit: animationMode === 'agile' ? 0.05 : 0.1,
             },
