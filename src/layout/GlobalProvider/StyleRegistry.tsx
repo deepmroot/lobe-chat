@@ -17,7 +17,7 @@ const StyleRegistry = ({ children }: PropsWithChildren) => {
                 font-style: normal;
                 font-weight: 400 700;
                 font-display: swap;
-                src: url('https://app.cal.com/fonts/cal-sans/CalSans-SemiBold.woff2') format('woff2');
+                src: url('/CalSans-SemiBold.woff2') format('woff2');
               }
             `,
         }}
