@@ -1,7 +1,7 @@
 export const LOBE_CHAT_CLOUD = 'InferenceSaver Cloud';
 
 export const BRANDING_NAME = 'InfraChat';
-export const BRANDING_LOGO_URL = 'https://app.inferencesaver.com/logos/InferenceSaverThicc.png';
+export const BRANDING_LOGO_URL = '/InferenceSaverThicc.png';
 
 export const ORG_NAME = 'InferenceSaver';
 
